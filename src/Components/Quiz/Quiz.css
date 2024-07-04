@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+}
+.container-q {
+    width: 80%;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 50px;
+    position: relative;
+    top: 50%;   
+    transform: translateY(calc(50%));
+}
+.container-q {
+  background: black;
+  opacity: 0.9;
+}
+.container-q hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+.container-q h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container-q .list-ans{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.container-q #ans{
+    width: 48.5%;
+
+    border: solid 1px #fff;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 5px;
+}
+.container-q .btn-next {
+    cursor: pointer;
+    text-align:right;
+    font-weight: 600;
+}
+.container-q .btn-next img{
+    height: 30px;
+    margin-left: 10px;
+}
+.container-q index{
+    font-size: 18px;
+    margin: auto;
+}
+.container-q .correct{
+    background: #00d397;
+    border-color: #00d397;
+    color: #000;
+ 
+}
+.container-q .wrong {
+    background: #ff4a4a;
+    border-color: #ff4a4a;
+    color: #000;
+
+    
+}
+.ques-quiz{
+    height: 185px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #fff;
+}
+.ques-quiz span{
+    
+   position: relative;
+   top: 35%;
+  
+}
+.container-q #ans:hover{
+    cursor: pointer;
+    /* background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: #000; */
+}
+
+.img-quiz{
+    opacity: 1;
+    text-align: center;
+    
+}
+.title-end{
+    text-align: center;
+}
+.hedear-nav{
+    background: #000;
+    opacity: 0.9;
+    
+}
+.container-nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+.logo-nav{
+opacity: 1;
+margin-top: auto;
+margin-bottom: auto;
+font-size: 30px;
+font-weight: 600;
+background: linear-gradient(to right, #fc5c7d, #6a82fb);
+-webkit-background-clip: text; /* Áp dụng gradient màu cho màu chữ trên Chrome và Safari */
+background-clip: text;
+color: transparent; /* Màu chữ trở thành trong */
+
+}
+.ultility-user{
+    display: flex;
+    margin-top: auto;
+margin-bottom: auto;
+color: #fff;
+font-size: 14px;
+}
+.ultility-user img{
+height: 18px;
+margin-right: 10px;
+}
+.rank-user{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.pro-user{
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
